@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon", href="../Imagenes/checklist.png">
+    <title>Formularios</title>
+</head>
+<body>
+    <form name="Informacion_Personal" action="../Inicio.html" method="">
+        <h1><img src="../Imagenes/user.png" width="60"> Datos Personales</h1>
+          <label for="perfil">Describe tu perfil</label>
+          <br>
+          <textarea id="perfil" rows="7" cols="70" name="perfil"></textarea>
+          <br><br>
+          <label for="id">Tipo de Identificacion</label>
+          <select id="id" name="id">
+            <option value="0" selected="">Seleccione un Tipo de Documentacion</option>
+            <option value="CC">Cedula de Ciudadania (C.C)</option>
+            <option value="TI">Tarjeta de Identidad (T.I)</option>
+            <option value="CE">Cedula de Extranjeria (C.E)</option>
+          </select>
+          <br><br>
+          <label for="numid">Numero de Identificacion</label>
+          <input id="numid">
+          <br><br>
+          <label for="ape">Apellidos</label>
+          <input id="ape" type="text" name="ape">
+          <br><br>
+          <label for="nom">Nombres</label>
+          <input id="nom" type="text" name="nom">
+          <br><br>
+          <label for="gen">Genero</label>
+          <input id="gemF" type="radio" name="gem"> Femenino
+          <input id="gemM" type="radio" name="gem"> Masculino
+          <input id="gemO" type="radio" name="gem"> Otro
+          <input id="gemO" type="radio" name="gem" checked> Croissant
+          <br> <br>
+          <label for="estado">Estado Civil</label>
+          <input id="estado" type="radio" name="estado"> Soltero
+          <input id="gemF" type="radio" name="gem"> Casado
+          <input id="gemM" type="radio" name="gem"> Union Libre
+          <input id="gemO" type="radio" name="gem"> Viudo(a)
+          <br><br>
+          <label for="numcon">Numero de contacto</label>
+          <input id="numcon">
+          <br><br>
+          <label for="ciudad">En que ciudad vives</label>
+          <select name="ciudad">
+            <option selected value="0">Elige una ciudad</option>
+                <optgroup label="Cundinamarca">
+                    <option value="1">Bogota</option>
+                    <option value="2">Chia</option>
+                    <option value="3">Soacha</option>
+                    <option value="4">Zipaquira</option>
+                    <option value="5">Facatativa</option>
+                </optgroup>
+                <optgroup label="Antioquia">
+                    <option value="6">Caldas</option>
+                    <option value="7">Rionegro</option>
+                    <option value="8">Copacabana</option>
+                    <option value="9">Bello</option>
+                    <option value="10">La union</option>
+                </optgroup>
+          </select>
+          <br><br>
+          <label for="direc">Direccion de Residencia</label>
+          <input id="direc" type="text" name="direc">
+          <br><br>
+          <label for="correo">Correo Electronico</label>
+          <input id="correo">
+          <br><br>
+          <label for="contra">Contraseña</label>
+          <input id="contra" type="password">
+          <br><br>
+          <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+    <input type="checkbox" id="series" name="series">
+    <label for="series">Ver Series</label>
+    <input type="checkbox" id="jugar" name="jugar">
+    <label for="jugar">Jugar Videojuegos</label>
+    <input type="checkbox" id="deportes" name="deportes">
+    <label for="deportes">Hacer Deporte</label>
+    <br><br>
+    <label for="archivo">Inserte un archivo</label>
+    <input type="file" name="archivo">
+    </form>
+</body>
+</html>
