@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap')
+body {
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+body {background-image:  url("../Imagenes/mubarak-sheik-hlf276FAtxI-unsplash.jpg");
+background-repeat: repeat-y;
+}
+
+h1 {background-color: red;
+    color: aqua;
+    font-family: 'Fuggles';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    text-decoration:dotted;
+}
