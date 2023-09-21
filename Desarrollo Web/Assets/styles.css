@@ -1,20 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 body {
-    margin: 0;
-    width: auto;
-    height: 0;
+    background-color:beige;
 }
-
-body {background-image:  url("../Imagenes/mubarak-sheik-hlf276FAtxI-unsplash.jpg");
-background-repeat: repeat-y;
-}
-
-h1 {background-color: red;
-    color: aqua;
-    font-family: 'Fuggles';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 50px;
+h1 {
+    color:rgb(58,153,141);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    font-size: 20pt;
     text-align: center;
-    text-decoration:dotted;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color:rgb(58,153,141);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    font-size: 18pt;
+    text-align: right;
+}
+a:hover.link {
+    color: red;
+    background-color: black;
 }
