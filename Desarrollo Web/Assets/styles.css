@@ -95,6 +95,9 @@ li {
     font-weight: 0;
     font-family:'Times New Roman', Times, serif;
 }
+a {
+    font-family:Arial, Helvetica, sans-serif;
+}
 a:hover {
     color: red;
     background-color: black;
@@ -103,5 +106,41 @@ a:link {
     color: yellow;
 }
 a:visited {
-    color: yellow;
+    color:rgb(33, 198, 33);
+}
+.esopo {
+    margin: 50px auto;
+    width: 1100px;
+    height: 350px;
+    border: 5px dashed;
+    border-color: yellow;
+    background-color: rgb(13, 83, 91);
+    padding: 50px 20px 50px 0px;
+    color: white;
+}
+#tituesopo {
+    font-size: 24pt;
+    text-align: left;
+    color: white;
+    text-indent: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.homero {
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
+#imgesopo{
+    float: left;
+    width: 150px;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+}
+#txtesopo {
+    font-size: 12pt;
+    text-align: left;
+    color: white; 
+    font-weight: 100;
 }

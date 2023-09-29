@@ -1,0 +1,34 @@
+.amarillo {
+ color: yellow;
+ text-indent: 40px;
+ background-color: black;
+}
+.azul {
+ color: blue;
+ text-indent: 80px;
+ background-color: rgb(113, 113, 113);
+}
+.rojo {
+color: red;
+text-indent: 120px;
+background-color: rgb(200, 200, 200);
+}
+h2 {
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+}
+#moraleja {
+    text-align: right;
+}
+.homero {
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
+.esopo {
+    text-align: left;
+    font-size: 12pt;
+    font-weight: 0;
+    font-family:'Times New Roman', Times, serif;
+}
