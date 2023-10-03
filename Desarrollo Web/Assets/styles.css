@@ -29,11 +29,7 @@ p {
 
 }
 ul {
-    text-align: center;
-    color:rgb(58,153,141);
-    font-size: 20pt;
-    font-weight: 600;
-    list-style-image:url("../Imagenes/vector-cartoon-flower.jpg");
+    list-style-image:url("../Imagenes/lunalista.png");
     list-style-position: inside;
 }
 li {
